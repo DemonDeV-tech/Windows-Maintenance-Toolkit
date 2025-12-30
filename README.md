@@ -2,7 +2,7 @@
 
 **Par DemonDeV-tech**
 
-![Aperçu du Terminal](terminal.png)
+![Aperçu du Terminal](assets/terminal.png)
 
 WMToolkit est une suite d'outils avancée conçue exclusivement pour optimiser, nettoyer et réparer les systèmes Windows. Idéal pour redonner de la vitesse aux PC anciens ou saturés.
 
