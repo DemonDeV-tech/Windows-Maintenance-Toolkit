@@ -30,6 +30,9 @@ Ouvrez PowerShell 7 en tant qu'Administrateur et lancez cette commande :
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
+Puis pour démarrer: ./Start-WMToolkit.ps1
+
+(Attention vérifier bien que après le 1er point là barre et coller sa arrive que sa mes un espace automatiquement donc faite attention) 
 ---------------------------------------------------------
 
 📂 LISTE DES MODULES INCLUS
