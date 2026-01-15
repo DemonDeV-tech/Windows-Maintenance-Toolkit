@@ -28,7 +28,7 @@ GUIDE D'INSTALLATION ET SÉCURITÉ (OBLIGATOIRE)
 Vérifiez bien le fichier Start-WMToolkit.ps1 ET chaque script présent dans le dossier Modules. Si l'option "Débloquer" n'apparaît pas, c'est que les fichiers sont déjà autorisés.
 
 ​Option alternative (Méthode rapide via PowerShell) : 
-Ouvrez PowerShell dans le dossier du projet et exécutez cette commande pour débloquer tous les fichiers d'un coup :
+Ouvrez PowerShell En Administrateur dans le dossier du projet et exécutez cette commande pour débloquer tous les fichiers d'un coup :
 
 Get-ChildItem -Recurse | Unblock-File
 
