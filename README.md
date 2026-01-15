@@ -29,7 +29,6 @@ Vérifiez bien le fichier Start-WMToolkit.ps1 ET chaque script présent dans le 
 
 ​Option alternative (Méthode rapide via PowerShell) : 
 Ouvrez PowerShell dans le dossier du projet et exécutez cette commande pour débloquer tous les fichiers d'un coup :
- cette commande pour débloquer tous les fichiers d'un coup :
 
 Get-ChildItem -Recurse | Unblock-File
 
