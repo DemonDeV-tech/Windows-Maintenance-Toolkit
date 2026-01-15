@@ -17,13 +17,24 @@ Lien officiel PowerShell 7.5 :
 GUIDE D'INSTALLATION ET SÉCURITÉ (OBLIGATOIRE)
 ---------------------------------------------------------
 
-Étape 1 : Débloquer le fichier (Propriétés)
-Une fois le toolkit téléchargé, Windows bloque les scripts par sécurité.
+Étape 1 : ​🔓 Déblocage des scripts (Étape cruciale)
+​Windows bloque souvent les scripts téléchargés d'Internet par sécurité. Pour éviter les erreurs d'exécution :
+​Faites un clic droit sur le dossier principal du projet (ou sur chaque fichier .ps1 si vous préférez).
+​Sélectionnez Propriétés.
+​Dans l'onglet Général, regardez en bas dans la section "Sécurité".
+​Si elle apparaît, cochez la case Débloquer (ou "Unblock").
+​Cliquez sur Appliquer puis OK.
 
-1. Faites un CLIC DROIT sur "Start-WMToolkit.ps1".
-2. Cliquez sur "Propriétés".
-3. En bas de l'onglet "Général", cochez la case "Déverrouiller" ou "Débloquer".
-4. Cliquez sur "Appliquer" puis "OK".
+​[!IMPORTANT]
+Vérifiez bien le fichier Start-WMToolkit.ps1 ET les scripts présents dans le dossier Modules. Si l'option "Débloquer" n'apparaît pas, c'est que les fichiers sont déjà autorisés.
+
+Autre plus option à la place étape 1 si dessus: 
+La méthode rapide (via PowerShell)
+
+Alternative rapide via PowerShell :
+Ouvrez PowerShell dans le dossier du projet et exécutez cette commande pour débloquer tous les fichiers d'un coup :
+
+Get-ChildItem -Recurse | Unblock-File
 
 Étape 2 : Autoriser l'exécution dans PowerShell
 Ouvrez PowerShell 7 en tant qu'Administrateur et lancez cette commande :
